@@ -41,7 +41,7 @@ function init() {
 
   //   4+α　Blenderで作ったモデルを読み込む
   const loader = new GLTFLoader();
-  const url = "http://192.168.43.75:8080/NEWOPEN.glb";
+  const url = "./NEWOPEN.glb";
 
   let model = null;
   loader.load(
