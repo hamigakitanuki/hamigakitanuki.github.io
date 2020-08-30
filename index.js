@@ -2,8 +2,8 @@ window.addEventListener("DOMContentLoaded", init);
 import { GLTFLoader } from "./three/examples/jsm/loaders/GLTFLoader.js";
 
 function init() {
-  const width = 500;
-  const height = 500;
+  const width = 800;
+  const height = 800;
 
   //   １レンダラーを作る
   //   画面上に描画するやつ
