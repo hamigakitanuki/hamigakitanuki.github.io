@@ -2,13 +2,43 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>テスト</title>
+    <title>3D Dog</title>
     <script src="three.js"></script>
     <script src="OrbitControls.js"></script>
     <!-- <script src="three/examples/jsm/loaders/GLTFLoader.js"></script> -->
     <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <canvas id="myCanvas"></canvas>
+    <div style="display: inline-block">
+      <div>
+        <h2>操作方法(PC)</h2>
+        <ul>
+          <li>1.左クリックでドラッグするとあたりを見渡せます</li>
+          <li>2.右クリックでドラッグすると場所を移動できます</li>
+          <li>3.スクロールするとズーム出来ます</li>
+        </ul>
+      </div>
+      <div>
+        <h2>操作方法(スマホ)</h2>
+        <ul>
+          <li>1.１本指でなぞるとあたりを見渡せます</li>
+          <li>2.２本指でなぞると場所を移動できます</li>
+          <li>3.２本指で広げるとズーム出来ます</li>
+        </ul>
+      </div>
+      <div>
+        <h2>値変更</h2>
+        <ul>
+          <li>
+            <label
+              >犬のスピード
+              <input type="text" id="dog_speed" />
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
